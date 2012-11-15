@@ -1,4 +1,4 @@
-package com.mimminito.livewallpapertemplate;
+package com.circularvale.catwallbounce;
 
 import org.anddev.andengine.engine.camera.Camera;
 import org.anddev.andengine.engine.options.EngineOptions;
@@ -11,13 +11,13 @@ import org.anddev.andengine.opengl.texture.region.TextureRegionFactory;
 
 import android.content.SharedPreferences;
 
-public class LiveWallpaperTemplate extends BaseLiveWallpaperService implements SharedPreferences.OnSharedPreferenceChangeListener
+public class CatWallBounce extends BaseLiveWallpaperService implements SharedPreferences.OnSharedPreferenceChangeListener
 {
 	// ===========================================================
 	// Constants
 	// ===========================================================
 	
-	public static final String SHARED_PREFS_NAME = "livewallpapertemplatesettings";
+	public static final String SHARED_PREFS_NAME = "catwallbouncesettings";
 
 	//Camera Constants
 	private static final int CAMERA_WIDTH = 480;

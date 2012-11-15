@@ -1,16 +1,16 @@
-package com.mimminito.livewallpapertemplate;
+package com.circularvale.catwallbounce;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceActivity;
 
-public class LiveWallpaperTemplateSettings extends PreferenceActivity implements SharedPreferences.OnSharedPreferenceChangeListener
+public class CatWallBounceSettings extends PreferenceActivity implements SharedPreferences.OnSharedPreferenceChangeListener
 {	
 	@Override
     protected void onCreate(Bundle icicle)
 	{
         super.onCreate(icicle);
-        getPreferenceManager().setSharedPreferencesName(LiveWallpaperTemplate.SHARED_PREFS_NAME);
+        getPreferenceManager().setSharedPreferencesName(CatWallBounce.SHARED_PREFS_NAME);
         addPreferencesFromResource(R.xml.wallpaper_settings);
         getPreferenceManager().getSharedPreferences().registerOnSharedPreferenceChangeListener(this);
     }
